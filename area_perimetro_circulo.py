@@ -1,16 +1,18 @@
+#programa para calcular el  area de un circulo de radio r
+
 import math
 
-# input
+# imput
+print("------------------------------------")
+R = input("ingree el valor del radio del circulo: ")
+R = int(R)
 
-r = input("ingrese el radio:")
+# procesing
+A = math.pi*R*R
+P = 2*math.pi*R
 
-r = int(r)
-
-# processing
-
-a = math.pi * r**2
-p = 2 * math.pi * r
-
-# output
-print("el area es: " + str(a))
-print("el perimetro es: " + str(p))
+# outpput
+print("------------------------------------")
+print("EL area del circulo es:" + str(A))
+print("EL perimetro del circulo es:" + str(P))
+print("------------------------------------")
